@@ -4,6 +4,8 @@
 
 This project aims to tackle a critical challenge faced by pharmaceutical companies regarding the persistency of drugs as per physician prescriptions. ABC Pharma Company has approached our analytics team to automate the identification process. The objective is to gather insights into the factors influencing persistency and build a classification model using the provided dataset.
 
+For a detailed report on the project, go through the [Project Report](Week 13 Deliverables/Project Report.pdf).
+
 ### Problem Statement
 
 The challenge involves understanding and predicting the persistency of drugs based on various patient and treatment-related factors. The primary task includes data understanding, cleaning, feature engineering, model development, selection, evaluation, and deploying the final model.
@@ -51,3 +53,8 @@ The dataset for this project can be accessed [here]([Dataset_Link](https://drive
 ### Model Evaluation
 
 ![image](https://github.com/Ashish-Sasna/Healthcare-Project/assets/96835311/b98b7458-323f-4089-8e91-2f0d4e5a2bb5)
+
+### HomePage
+
+![image](https://github.com/Ashish-Sasna/Healthcare-Project/assets/96835311/4010e127-2aff-4698-88d8-6bbe87160e73)
+
