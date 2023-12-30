@@ -32,10 +32,8 @@ def home():
 def predict():
     
     features = [x for x in request.form.values()]
-    #features = [np.array(features)]
     features = [int(val) if val.isdigit() else val for val in features]
     features_upd = [lb_enc.transform([val])[0] if isinstance(val, str) else val for val in features]
-    print(features_upd)
     result = model.predict([features_upd])[0]
     result = 'Persistent' if result == 1 else 'Non-Persistent'
     
